@@ -1,0 +1,5 @@
+lessons = list(map(int, input("Enter lesson status (1 for completed, 0 for pending): ").split()))
+completed = lessons.count(1)
+pending = lessons.count(0)
+print("Completed Lessons:", completed)
+print("Pending Lessons:", pending)
